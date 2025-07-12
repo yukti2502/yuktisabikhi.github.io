@@ -1,18 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Yukti Sabikhi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; background-color: #f9f9f9; padding: 40px; }
-    h1 { color: #0066cc; }
-    a { color: #0099cc; text-decoration: none; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    .intro {
+      margin: 30px 0;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 30px auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 12px 25px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1em;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    .contacts {
+      margin-top: 30px;
+      font-size: 1em;
+    }
+
+    .contacts a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .contacts a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello! I'm Yukti 👋</h1>
-  <p>📍 M.Sc. Bioinformatics | Aspiring Scientist</p>
-  <p>🔬 Focus: Genomics, Computational Biology, Drug Discovery</p>
-  <p>📄 Resume: <a href="https://github.com/user-attachments/files/21197104/Resume.for.Linkedin.pdf" target="_blank" download>Download Resume</a></p>
-  <p>📫 Contact: yukti257@gmail.com</p>
+  <div class="container">
+
+    <!-- Name -->
+    <h1>YUKTI SABIKHI</h1>
+    <h2>Interest in Genomics, Computational Biology and Drug Discovery</h2>
+
+    <!-- Introduction -->
+    <div class="intro">
+      <p>Hi, I'm Yukti Sabikhi, a Master's student in Bioinformatics at Jamia Hamdard University. I'm passionate about computational biology, genomics, and drug discovery. My work involves using tools like molecular docking, PPI network analysis, and WES data to understand disease mechanisms and identify potential therapeutics.</p>
+    </div>
+
+    <!-- Profile Photo -->
+    <img src="https://github.com/user-attachments/assets/074f8129-6f51-40c2-b18c-fbc831e66c0e" alt="Yukti Sabikhi" class="profile-img" />
+
+    <!-- Resume Button -->
+    <div>
+      <a class="btn" href="https://github.com/user-attachments/files/21197104/Resume.for.Linkedin.pdf" download target="_blank">📄 Download Resume</a>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contacts">
+      <p>📧 Email: <a href="mailto:yukti257@gmail.com">yukti257@gmail.com</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/yukti-sabikhi" target="_blank">linkedin.com/in/yukti-sabikhi</a></p>
+    </div>
+
+  </div>
 </body>
 </html>
