@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Poppins', sans-serif;
-      background-color: #f0f8ff;
+      background: linear-gradient(to right, #e3f2fd, #fffde7);
       color: #333;
     }
 
@@ -23,14 +23,25 @@
 
     h1 {
       font-size: 3em;
-      color: #0077cc;
+      color: #1e88e5;
       margin-bottom: 10px;
     }
 
-    h2 {
-      font-size: 1.5em;
-      margin-top: 10px;
-      color: #555;
+    .highlight-links a {
+      text-decoration: none;
+      background-color: #ffcc80;
+      color: #e65100;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px;
+      display: inline-block;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .highlight-links a:hover {
+      background-color: #ffa726;
+      color: #fff;
     }
 
     .intro {
@@ -45,24 +56,25 @@
       object-fit: cover;
       border-radius: 50%;
       margin: 30px auto;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      box-shadow: 0 0 20px rgba(0,0,0,0.15);
     }
 
     .btn {
       display: inline-block;
       margin: 20px 10px;
       padding: 12px 25px;
-      background-color: #0077cc;
+      background: linear-gradient(to right, #42a5f5, #1e88e5);
       color: white;
       border: none;
       border-radius: 5px;
       text-decoration: none;
       font-size: 1em;
-      transition: background-color 0.3s;
+      transition: transform 0.2s ease;
     }
 
     .btn:hover {
-      background-color: #005fa3;
+      transform: scale(1.05);
+      background: linear-gradient(to right, #1e88e5, #0d47a1);
     }
 
     .contacts {
@@ -71,7 +83,7 @@
     }
 
     .contacts a {
-      color: #0077cc;
+      color: #1e88e5;
       text-decoration: none;
     }
 
@@ -85,7 +97,13 @@
 
     <!-- Name -->
     <h1>YUKTI SABIKHI</h1>
-    <h2>Interest in Genomics, Computational Biology and Drug Discovery</h2>
+
+    <!-- Interest Areas -->
+    <div class="highlight-links">
+      <a href="https://github.com/search?q=genomics" target="_blank">Genomics</a>
+      <a href="https://github.com/search?q=computational+biology" target="_blank">Computational Biology</a>
+      <a href="https://github.com/search?q=drug+discovery" target="_blank">Drug Discovery</a>
+    </div>
 
     <!-- Introduction -->
     <div class="intro">
